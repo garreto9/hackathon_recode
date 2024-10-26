@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007BFF;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  main {
+    width: 80%;
+    margin: 2rem 0;
+  }
+  
+  form {
+    margin-bottom: 2rem;
+  }
+  
+  form label, form input, form select, form button {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  #mapa {
+    border: 1px solid #ddd;
+  }
+  
